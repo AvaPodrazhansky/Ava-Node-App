@@ -1,0 +1,34 @@
+.header {
+    width: 100%;
+    background-color: #257985;
+    color: #FFFFFF;
+    text-align: center;
+    font-family: "Snell Roundhand", cursive;
+    text-emphasis:initial;
+    
+ }
+ 
+ .body {
+    background-color: #5EA8A7;
+    color: #FFFFFF;
+    padding: 2em;
+     margin: 2em;
+     border: 3px #FF4447;
+     border-style: double;
+ }
+
+ .footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #257985;
+    color: #FFFFFF;
+    text-align: center;
+ }
+
+ .button {
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+ }

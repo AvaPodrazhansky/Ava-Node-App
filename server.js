@@ -8,4 +8,4 @@ app.use(express.static(path.join(__dirname, 'public')))
 // app.get('/', (req, res) => res.render('index'))
 // app.get('/page2', (req, res) => res.render('page2'))
 
-app.listen(PORT, () => console.log('We Gucci'))
+app.listen(PORT, () => console.log('Running on port' + PORT))
