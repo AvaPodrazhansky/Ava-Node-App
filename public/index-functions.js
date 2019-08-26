@@ -17,3 +17,10 @@ function decrement(){
     count = count -1;
     getCount();
 }
+
+// export {
+//     clickedTheButton,
+//     getCount,
+//     increment,
+//     decrement
+// }
