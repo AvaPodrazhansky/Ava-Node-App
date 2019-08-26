@@ -1,8 +1,3 @@
-function clickedTheButton() {
-    // document.getElementById("myButton").innerHTML = "You clicked me";
-    return res.redirect('/page2');
-}
-
 let count = 0;
 
 function getCount(){
