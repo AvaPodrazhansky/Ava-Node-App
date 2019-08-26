@@ -6,6 +6,7 @@
         <!-- The <title> is what is shown in a browser's title bar -->
         <title>Ava's Website</title> 
         <link rel="stylesheet" href="../../stylesheets/style.css"> 
+        <script type="text/javascript" src="./../../index-functions.js"></script> 
     </head>
 
     <!-- The <div> tag just defines a container that encapsulates other elements -->
@@ -15,9 +16,18 @@
             <!-- Headings -->
             <h1>Page 2</h1>
         </header>
+    </div>
+    <div class="body">
         <body>
             <p>This is page 2</p>
+            <span>
+                <button class="redButton" id="redButton" onclick="clickedRedButton()">Red Button</button>
+                <button class="blueButton" id="blueButton" onclick="clickedBlueButton()">Blue Button</button>
+                <button class="yellowButton" id="yellowButton" onclick="clickedYellowButton()">Yellow Button</button>
+            </span>
+            <p id="buttonInfo">Press a button</p>
         </body>
+    </div>
         <div class="footer">
                 <footer>
                     <p>Ava Podrazhansky</p>
@@ -25,8 +35,8 @@
                     <p>CS 4400 Directed Study</p>
                     <p>Professor: Selena He</p>
                 </footer>
-            </div>
-    </div>
+        </div>
+
 
     
     <div class="footer">

@@ -34,3 +34,29 @@
     padding: 10px;
     font-family: 'Times New Roman', Times, serif;
  }
+
+ .redButton {
+   margin: auto;
+   width: 50%;
+   padding: 10px;
+   background-color: red;
+   font-family: 'Times New Roman', Times, serif;
+}
+
+.blueButton {
+   margin: auto;
+   width: 50%;
+   padding: 10px;
+   background-color: blue;
+   font-family: 'Times New Roman', Times, serif;
+}
+
+.yellowButton {
+   margin: auto;
+   width: 50%;
+   padding: 10px;
+   background-color: yellow;
+   font-family: 'Times New Roman', Times, serif;
+}
+
+ 

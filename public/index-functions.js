@@ -18,9 +18,14 @@ function decrement(){
     getCount();
 }
 
-// export {
-//     clickedTheButton,
-//     getCount,
-//     increment,
-//     decrement
-// }
+function clickedRedButton(){
+    document.getElementById("buttonInfo").innerHTML = "You clicked the red button";
+}
+
+function clickedBlueButton(){
+    document.getElementById("buttonInfo").innerHTML = "You clicked the blue button";
+}
+
+function clickedYellowButton(){
+    document.getElementById("buttonInfo").innerHTML = "You clicked the yellow button";
+}
